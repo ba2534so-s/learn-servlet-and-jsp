@@ -4,7 +4,7 @@ import jakarta.servlet.http.HttpServlet;
 
 public class AddServlet extends HttpServlet {
 	
-	public void service(HttpServerRequest req, HttpServerResponse res) {
+	public void service(HttpServletRequest req, HttpServletResponse res) {
 		
 	}
 
