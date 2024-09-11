@@ -1,5 +1,7 @@
 package com.learnservletandjsp;
 
-public class AddServlet {
+import jakarta.servlet.http.HttpServlet;
+
+public class AddServlet extends HttpServlet {
 
 }
