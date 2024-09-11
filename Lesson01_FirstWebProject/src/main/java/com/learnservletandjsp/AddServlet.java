@@ -33,6 +33,8 @@ public class AddServlet extends HttpServlet {
 		int j = Integer.parseInt(req.getParameter("num2"));
 
 		int sum = i + j;
+		
+		req.setAttribute("sum", sum);
 
 		RequestDispatcher rd = req.getRequestDispatcher("square");
 		rd.forward(req, res);
