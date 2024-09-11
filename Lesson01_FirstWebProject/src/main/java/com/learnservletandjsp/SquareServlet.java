@@ -12,6 +12,7 @@ public class SquareServlet extends HttpServlet {
 	public void doGet(HttpServletRequest req, HttpServletResponse res) throws IOException {
 		
 		int sum = (int) req.getAttribute("sum");
+		int square = sum * sum;
 		
 		PrintWriter out = res.getWriter();
 		out.println("Hello from SquareServlet");
