@@ -18,6 +18,11 @@
   	<servlet-name>sq</servlet-name>
   	<url-pattern>/square</url-pattern>
   </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>cube</servlet-name>
+  	<servlet-class>com.learnservletandjsp.CubeServlet</servlet-class>
+  </servlet>
 
 	 
 </web-app>
