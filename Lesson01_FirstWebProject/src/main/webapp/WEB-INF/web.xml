@@ -23,6 +23,10 @@
   	<servlet-name>cube</servlet-name>
   	<servlet-class>com.learnservletandjsp.CubeServlet</servlet-class>
   </servlet>
+  <servlet-mapping>
+  	<servlet-name>cube</servlet-name>
+  	<url-pattern>/cube</url-pattern>
+  </servlet-mapping>
 
 	 
 </web-app>
