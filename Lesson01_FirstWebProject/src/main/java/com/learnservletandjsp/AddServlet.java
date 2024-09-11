@@ -3,6 +3,7 @@ package com.learnservletandjsp;
 import java.io.IOException;
 import java.io.PrintWriter;
 
+import jakarta.servlet.RequestDispatcher;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
@@ -32,9 +33,7 @@ public class AddServlet extends HttpServlet {
 
 		int sum = i + j;
 
-		PrintWriter out = res.getWriter();
-
-		out.println("Result is: " + sum);
+		RequestDispatcher rd = req.getRequestDispatcher("square");
 
 	}
 
