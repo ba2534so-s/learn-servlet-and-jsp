@@ -8,6 +8,8 @@ public class CubeServlet extends HttpServlet {
 	
 	public void doGet(HttpServletRequest req, HttpServletResponse res) {
 		
+		System.out.println("Cube called");
+		
 	}
 
 }
