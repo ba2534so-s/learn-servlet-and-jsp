@@ -12,7 +12,7 @@ public class SquareServlet extends HttpServlet {
 	public void doGet(HttpServletRequest req, HttpServletResponse res) throws IOException {
 		
 		PrintWriter out = res.getWriter();
-		out.println();
+		out.println("Hello from SquareServlet");
 		
 	}
 
