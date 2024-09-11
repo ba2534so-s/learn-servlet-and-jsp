@@ -8,7 +8,7 @@ public class AddServlet extends HttpServlet {
 	
 	public void service(HttpServletRequest req, HttpServletResponse res) {
 		
-		int i = req.getParameter("num1");
+		int i = Integer.parseInt(req.getParameter("num1"));
 		
 	}
 
