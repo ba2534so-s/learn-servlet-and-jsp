@@ -12,6 +12,7 @@
 bin/
 target/
 .tmp/
+**.class
 
 ### Maven ###
 target/
