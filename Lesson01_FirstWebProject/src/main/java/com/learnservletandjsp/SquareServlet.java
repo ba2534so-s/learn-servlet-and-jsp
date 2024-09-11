@@ -15,7 +15,7 @@ public class SquareServlet extends HttpServlet {
 		int square = sum * sum;
 		
 		PrintWriter out = res.getWriter();
-		out.println("Hello from SquareServlet");
+		out.println("Square is: " + square);
 		
 	}
 
