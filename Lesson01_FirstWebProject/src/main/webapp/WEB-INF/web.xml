@@ -2,13 +2,18 @@
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd" id="WebApp_ID" version="6.0">
   
   <servlet>
-  	<servlet-name>abc</servlet-name>
+  	<servlet-name>add</servlet-name>
   	<servlet-class>com.learnservletandjsp.AddServlet</servlet-class>
   </servlet>
   <servlet-mapping>
-  	<servlet-name>abc</servlet-name>
+  	<servlet-name>add</servlet-name>
   	<url-pattern>/add</url-pattern>
   </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>sq</servlet-name>
+  	<servlet-class>com.learnservletandjsp.SquareServlet</servlet-class>
+  </servlet>
 
 	 
 </web-app>
