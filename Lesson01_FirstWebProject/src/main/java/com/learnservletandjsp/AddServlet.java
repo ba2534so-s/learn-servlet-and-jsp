@@ -34,7 +34,7 @@ public class AddServlet extends HttpServlet {
 
 		int sum = i + j;
 		
-		res.sendRedirect("cube");
+		res.sendRedirect("cube?sum=" + sum);
 		
 		/*
 		req.setAttribute("sum", sum);
