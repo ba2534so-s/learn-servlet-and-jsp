@@ -34,11 +34,13 @@ public class AddServlet extends HttpServlet {
 
 		int sum = i + j;
 		
+		res.sendRedirect("cube?sum=" + sum);
+		
+		/*
 		req.setAttribute("sum", sum);
-
 		RequestDispatcher rd = req.getRequestDispatcher("square");
 		rd.forward(req, res);
-
+		*/
 	}
 
 }
