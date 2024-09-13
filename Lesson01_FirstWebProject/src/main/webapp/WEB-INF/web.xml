@@ -37,5 +37,10 @@
   	<servlet-name>configcontext</servlet-name>
   	<url-pattern>/config</url-pattern>
   </servlet-mapping>
+ 	
+  <context-param>
+  	<param-name>name</param-name>
+  	<param-value>Batman</param-value>
+  </context-param>
 	 
 </web-app>
