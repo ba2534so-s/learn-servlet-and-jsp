@@ -3,6 +3,7 @@ package com.learnservletandjsp;
 import java.io.IOException;
 import java.io.PrintWriter;
 
+import jakarta.servlet.ServletConfig;
 import jakarta.servlet.ServletContext;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
@@ -21,6 +22,11 @@ public class ConfigContext extends HttpServlet {
 		
 		str = ctx.getInitParameter("car");
 		out.println("Car: " + str);
+		
+		
+		ServletConfig cfg = getServletConfig();
+		
+		
 	}
 
 }
