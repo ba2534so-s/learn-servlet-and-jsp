@@ -17,7 +17,9 @@ public class CubeServlet extends HttpServlet {
 		Cookie[] cookies = req.getCookies();
 		
 		for (Cookie cookie : cookies) {
-			
+			if (cookie.getName() == "sum") {
+				
+			}
 		}
 		
 		// int sum = Integer.parseInt(req.getParameter("sum"));   // URL rewriting
