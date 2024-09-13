@@ -22,10 +22,12 @@ public class ConfigContext extends HttpServlet {
 		
 		str = ctx.getInitParameter("car");
 		out.println("Car: " + str);
+		out.println();
 		
 		
 		ServletConfig cfg = getServletConfig();
-		
+		str = cfg.getInitParameter("name");
+		out.println("Name: " + str);
 		
 	}
 
