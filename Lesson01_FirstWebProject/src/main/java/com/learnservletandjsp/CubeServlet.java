@@ -14,7 +14,7 @@ public class CubeServlet extends HttpServlet {
 	public void doGet(HttpServletRequest req, HttpServletResponse res) throws IOException {
 		
 		//HttpSession session = req.getSession();
-		Cookie
+		Cookie[] cookie = req.getCookies();
 		
 		// int sum = Integer.parseInt(req.getParameter("sum"));   // URL rewriting
 		// int sum = (int) session.getAttribute("sum");			  // Session
