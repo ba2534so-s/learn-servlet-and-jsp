@@ -32,6 +32,11 @@
   <servlet>
   	<servlet-name>configcontext</servlet-name>
   	<servlet-class>com.learnservletandjsp.ConfigContext</servlet-class>
+  	
+  	<init-param>
+  		<param-name>name</param-name>
+  		<param-value>Superman</param-value>
+  	</init-param>
   </servlet>
   <servlet-mapping>
   	<servlet-name>configcontext</servlet-name>
