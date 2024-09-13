@@ -42,7 +42,7 @@ public class AddServlet extends HttpServlet {
 		session.setAttribute("sum", sum);
 		*/
 		
-		Cookie
+		Cookie cookie = new Cookie("sum", sum + "");
 		
 		res.sendRedirect("cube");
 		
