@@ -27,6 +27,12 @@
   	<servlet-name>cube</servlet-name>
   	<url-pattern>/cube</url-pattern>
   </servlet-mapping>
+  
+  
+  <servlet>
+  	<servlet-name>configcontext</servlet-name>
+  	<servlet-class>com.learnservletandjsp.ConfigContext</servlet-class>
+  </servlet>
 
 	 
 </web-app>
