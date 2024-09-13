@@ -38,7 +38,9 @@ public class AddServlet extends HttpServlet {
 		HttpSession session = req.getSession();
 		session.setAttribute("sum", sum);
 		
-		res.sendRedirect("cube?sum=" + sum);
+		
+		
+		// res.sendRedirect("cube?sum=" + sum); // URL rewriting
 		
 		/*
 		req.setAttribute("sum", sum);
