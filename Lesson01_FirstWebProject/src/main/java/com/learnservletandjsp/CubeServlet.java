@@ -16,7 +16,7 @@ public class CubeServlet extends HttpServlet {
 		
 		
 		PrintWriter out = res.getWriter();
-		out.println("Cube is: Called");
+		out.println("Cube is: " + cube);
 		
 	}
 
