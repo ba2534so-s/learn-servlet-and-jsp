@@ -18,7 +18,9 @@ public class ConfigContext extends HttpServlet {
 		String str = ctx.getInitParameter("name");
 		
 		out.println("Name: " + str);
-		out.println("Car: ");
+		
+		str = ctx.getInitParameter("car");
+		out.println("Car: " + str);
 	}
 
 }
