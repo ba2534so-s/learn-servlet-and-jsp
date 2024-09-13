@@ -12,7 +12,7 @@ public class CubeServlet extends HttpServlet {
 	
 	public void doGet(HttpServletRequest req, HttpServletResponse res) throws IOException {
 		
-		HttpSession 
+		HttpSession session = req.getSession();
 		
 		// int sum = Integer.parseInt(req.getParameter("sum"));
 		int cube = sum*sum*sum;
