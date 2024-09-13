@@ -5,9 +5,11 @@ import java.io.PrintWriter;
 
 import jakarta.servlet.RequestDispatcher;
 import jakarta.servlet.ServletException;
+import jakarta.servlet.http.Cookie;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
+import jakarta.servlet.http.HttpSession;
 
 public class AddServlet extends HttpServlet {
 
@@ -34,7 +36,18 @@ public class AddServlet extends HttpServlet {
 
 		int sum = i + j;
 		
-		res.sendRedirect("cube?sum=" + sum);
+		
+		/*
+		HttpSession session = req.getSession();
+		session.setAttribute("sum", sum);
+		*/
+		
+		Cookie cookie = new Cookie("sum", sum + "");
+		res.addCookie(cookie); // add cookie to response object
+		
+		res.sendRedirect("cube");
+		
+		// res.sendRedirect("cube?sum=" + sum); // URL rewriting
 		
 		/*
 		req.setAttribute("sum", sum);
