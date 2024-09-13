@@ -33,6 +33,9 @@
   	<servlet-name>configcontext</servlet-name>
   	<servlet-class>com.learnservletandjsp.ConfigContext</servlet-class>
   </servlet>
-
+  <servlet-mapping>
+  	<servlet-name>configcontext</servlet-name>
+  	<url-pattern>/config</url-pattern>
+  </servlet-mapping>
 	 
 </web-app>
