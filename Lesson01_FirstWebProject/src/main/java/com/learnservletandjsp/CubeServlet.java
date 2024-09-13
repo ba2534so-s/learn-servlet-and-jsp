@@ -14,6 +14,7 @@ public class CubeServlet extends HttpServlet {
 		
 		HttpSession session = req.getSession();
 		
+		int sum = session.getAttribute("sum");
 		// int sum = Integer.parseInt(req.getParameter("sum"));
 		int cube = sum*sum*sum;
 		
