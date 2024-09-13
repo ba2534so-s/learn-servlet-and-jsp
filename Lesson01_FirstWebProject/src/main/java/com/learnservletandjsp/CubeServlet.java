@@ -22,6 +22,8 @@ public class CubeServlet extends HttpServlet {
 		PrintWriter out = res.getWriter();
 		out.println("Cube is: " + cube);
 		
+		
+		session.removeAttribute("sum"); // Remove sum from session
 	}
 
 }
