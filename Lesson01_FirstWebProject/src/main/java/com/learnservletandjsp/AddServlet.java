@@ -43,6 +43,7 @@ public class AddServlet extends HttpServlet {
 		*/
 		
 		Cookie cookie = new Cookie("sum", sum + "");
+		res.addCookie(cookie); // add cookie to response object
 		
 		res.sendRedirect("cube");
 		
