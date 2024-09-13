@@ -12,10 +12,14 @@ public class CubeServlet extends HttpServlet {
 	
 	public void doGet(HttpServletRequest req, HttpServletResponse res) throws IOException {
 		
-		HttpSession session = req.getSession();
+		//HttpSession session = req.getSession();
 		
-		int sum = (int) session.getAttribute("sum");
-		// int sum = Integer.parseInt(req.getParameter("sum"));
+		// int sum = Integer.parseInt(req.getParameter("sum"));   // URL rewriting
+		// int sum = (int) session.getAttribute("sum");			  // Session
+		
+		
+		
+		
 		int cube = sum*sum*sum;
 		
 		
