@@ -42,5 +42,9 @@
   	<param-name>name</param-name>
   	<param-value>Batman</param-value>
   </context-param>
+  <context-param>
+  	<param-name>car</param-name>
+  	<param-value>Batmobile</param-value>
+  </context-param>
 	 
 </web-app>
