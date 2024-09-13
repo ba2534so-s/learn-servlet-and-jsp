@@ -13,8 +13,8 @@ public class ConfigContext extends HttpServlet {
 		
 		
 		PrintWriter out = res.getWriter();
-		out.print("Name: " + "<br>");
-		out.print("Car: ");
+		out.println("Name: ");
+		out.println("Car: ");
 	}
 
 }
