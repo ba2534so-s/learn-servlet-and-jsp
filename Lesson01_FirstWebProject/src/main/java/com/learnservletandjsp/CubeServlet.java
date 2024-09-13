@@ -6,12 +6,13 @@ import java.io.PrintWriter;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
+import jakarta.servlet.http.HttpSession;
 
 public class CubeServlet extends HttpServlet {
 	
 	public void doGet(HttpServletRequest req, HttpServletResponse res) throws IOException {
 		
-		
+		HttpSession 
 		
 		// int sum = Integer.parseInt(req.getParameter("sum"));
 		int cube = sum*sum*sum;
