@@ -15,8 +15,9 @@ public class ConfigContext extends HttpServlet {
 		
 		PrintWriter out = res.getWriter();
 		ServletContext ctx = getServletContext();
+		String str = ctx.getInitParameter("name");
 		
-		out.println("Name: ");
+		out.println("Name: " + str);
 		out.println("Car: ");
 	}
 
