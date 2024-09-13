@@ -9,7 +9,7 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
 
-@WebServlet("addAnnotation")
+@WebServlet("/addAnnotation")
 public class AddAnnotationServlet extends HttpServlet {
 	
 	public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
@@ -20,6 +20,7 @@ public class AddAnnotationServlet extends HttpServlet {
 		int sum = i + j;
 		
 		PrintWriter out = response.getWriter();
+		out.println("Sum: " + sum);
 		
 	}
 
