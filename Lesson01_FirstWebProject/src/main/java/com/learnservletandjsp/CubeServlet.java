@@ -17,9 +17,9 @@ public class CubeServlet extends HttpServlet {
 		//HttpSession session = req.getSession();
 		Cookie[] cookies = req.getCookies();
 		
-		for (Cookie cookie : cookies) {
+		for (Cookie cookie : cookies) {							// Cookie
 			if (cookie.getName() == "sum") {
-				
+				sum = Integer.parseInt(cookie.getValue());
 			}
 		}
 		
@@ -36,7 +36,7 @@ public class CubeServlet extends HttpServlet {
 		out.println("Cube is: " + cube);
 		
 		
-		session.removeAttribute("sum"); // Remove sum from session
+		//session.removeAttribute("sum"); // Remove sum from session
 	}
 
 }
