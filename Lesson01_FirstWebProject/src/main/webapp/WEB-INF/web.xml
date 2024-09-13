@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd" id="WebApp_ID" version="6.0">
   
+  
   <servlet>
   	<servlet-name>add</servlet-name>
   	<servlet-class>com.learnservletandjsp.AddServlet</servlet-class>
@@ -27,6 +28,29 @@
   	<servlet-name>cube</servlet-name>
   	<url-pattern>/cube</url-pattern>
   </servlet-mapping>
-
+  
+  
+  <servlet>
+  	<servlet-name>configcontext</servlet-name>
+  	<servlet-class>com.learnservletandjsp.ConfigContext</servlet-class>
+  	
+  	<init-param>
+  		<param-name>name</param-name>
+  		<param-value>Superman</param-value>
+  	</init-param>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>configcontext</servlet-name>
+  	<url-pattern>/config</url-pattern>
+  </servlet-mapping>
+ 	
+  <context-param>
+  	<param-name>name</param-name>
+  	<param-value>Batman</param-value>
+  </context-param>
+  <context-param>
+  	<param-name>car</param-name>
+  	<param-value>Batmobile</param-value>
+  </context-param>
 	 
 </web-app>
