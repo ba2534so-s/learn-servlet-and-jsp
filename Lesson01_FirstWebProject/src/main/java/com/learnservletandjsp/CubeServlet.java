@@ -11,6 +11,9 @@ public class CubeServlet extends HttpServlet {
 	
 	public void doGet(HttpServletRequest req, HttpServletResponse res) throws IOException {
 		
+		int sum = Integer.parseInt(req.getParameter("sum"));
+		
+		
 		PrintWriter out = res.getWriter();
 		out.println("Cube is: Called");
 		
