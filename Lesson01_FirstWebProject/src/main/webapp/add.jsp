@@ -11,13 +11,13 @@
 		<% 
 			int i = Integer.parseInt(request.getParameter("num1"));
 			int j = Integer.parseInt(request.getParameter("num2"));
-			int sum = i + j;
-			
-			out.println("Sum: " + sum);
+			int sum = i + j;			
 		%>
-		
-		
-		
-
-	</body>
-</html>
+		<h2 style='color:mediumseagreen'>
+		<% out.println("Sum: " + sum);	%>
+		</h2>
+			
+			
+		</body>
+	</html>
+	
