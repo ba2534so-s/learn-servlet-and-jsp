@@ -4,10 +4,19 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>Insert title here</title>
+		<title>Add JSP</title>
 	</head>
-	<body>
+	<body bgcolor="black">
 	
+		<% 
+			int i = Integer.parseInt(request.getParameter("num1"));
+			int j = Integer.parseInt(request.getParameter("num2"));
+			int sum = i + j;
+			
+			out.println("Sum: " + sum);
+		%>
+		
+		
 		
 
 	</body>
