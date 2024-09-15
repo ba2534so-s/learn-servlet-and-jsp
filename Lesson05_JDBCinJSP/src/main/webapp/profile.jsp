@@ -19,6 +19,7 @@
 		String password = "0";
 		Class.forName("org.postgresql.Driver");
 		Connection con = DriverManager.getConnection(url, username, password);
+		Statement st = con.createStatement();
 	
 	%>
 
