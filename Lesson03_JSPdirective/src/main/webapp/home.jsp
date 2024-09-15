@@ -14,7 +14,7 @@
 <body>
 
 	<%
-		pageContext.setAttribute("name", "Batman");
+		pageContext.setAttribute("name", "Batman", PageContext.SESSION_SCOPE);
 	
 	%>
 
