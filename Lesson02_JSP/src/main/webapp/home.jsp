@@ -23,6 +23,7 @@
 		<%
 			out.println(5 + 7);
 		%>
+		<br><br>
 		
 		<!-- EXPRESSION -->
 		My Favorite Number Is: <%= coef %>
