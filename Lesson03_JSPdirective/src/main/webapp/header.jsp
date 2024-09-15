@@ -7,6 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
+	<%= 7+6 %>
 
 </body>
 </html>
