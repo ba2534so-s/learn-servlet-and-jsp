@@ -2,6 +2,7 @@
     pageEncoding="UTF-8" %>
     
 <%@ page import="java.sql.Statement, java.util.ArrayList" %>
+<%@ include file="header.jsp" %>
     
     
 <!DOCTYPE html>
