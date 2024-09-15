@@ -20,7 +20,9 @@ public class AddAnnotationServlet extends HttpServlet {
 		int sum = i + j;
 		
 		PrintWriter out = response.getWriter();
-		out.println("Sum: " + sum);
+		out.println("<html><body bgcolor='black'>");
+		out.println("<h2 style='color:mediumseagreen'>Sum: " + sum);
+		out.println("</h2></body></html>");
 		
 	}
 
