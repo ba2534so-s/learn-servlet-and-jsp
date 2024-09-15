@@ -24,6 +24,7 @@
 			out.println(5 + 7);
 		%>
 		
+		<!-- EXPRESSION -->
 		My Favorite Number Is: <%= coef %>
 	</body>
 </html>
