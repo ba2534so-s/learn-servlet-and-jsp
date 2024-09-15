@@ -6,8 +6,12 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 </head>
-<body>
-	Hello World
+<body> 
+	<% 
+		String name = request.getAttribute("name").toString();
+		out.println("Hello " + name);
+	
+	%> 
 
 </body>
 </html>
