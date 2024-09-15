@@ -16,12 +16,14 @@
 		
 		<!-- DECLARATION -->
 		<%!
-			int coef = 3;
+			int coef = 10;
 		%>
 		
 		<!--  SCRIPTLET -->
 		<%
 			out.println(5 + 7);
 		%>
+		
+		My Favorite Number Is: <%= coef %>
 	</body>
 </html>
