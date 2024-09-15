@@ -6,7 +6,7 @@
 <meta charset="UTF-8">
 <title>ERROR</title>
 </head>
-<body>
+<body bgcolor="grey">
 
 	Error
 
