@@ -9,7 +9,13 @@
 <body>
 
 	<%
-		int k = 9/0;
+	
+		try {
+			int k = 9/0;			
+		} catch (Exception e) {
+			
+		}
+	
 	
 	%>
 
