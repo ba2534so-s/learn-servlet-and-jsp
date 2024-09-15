@@ -9,7 +9,7 @@
 <body bgcolor="grey">
 
 	Error
-		<%= exception %>
+		<%= exception.getMessage() %>
 
 </body>
 </html>
