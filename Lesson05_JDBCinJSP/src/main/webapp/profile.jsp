@@ -17,6 +17,9 @@
 		String url = "jdbc:postgresql://localhost:5432/learn_jsp";
 		String username ="postgres";
 		String password = "0";
+		
+		String query = "SELECT * FROM Students WHERE studentID = 1";
+		
 		Class.forName("org.postgresql.Driver");
 		Connection con = DriverManager.getConnection(url, username, password);
 		Statement st = con.createStatement();
