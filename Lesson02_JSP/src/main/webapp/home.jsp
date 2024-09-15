@@ -7,7 +7,9 @@
 		<title>JSP page</title>
 	</head>
 	<body>
-		<h1>Hello World1</h1>
-		
+		<h1>Hello World!</h1>
+		<%
+			out.println(5 + 7);
+		%>
 	</body>
 </html>
