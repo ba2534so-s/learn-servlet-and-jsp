@@ -8,7 +8,7 @@
 </head>
 <body bgcolor="grey">
 
-	Error
+	Error: 
 		<%= exception.getMessage() %>
 
 </body>
