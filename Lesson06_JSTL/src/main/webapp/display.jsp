@@ -12,6 +12,8 @@
 		out.println("Hello " + name);
 	
 	%> 
+	
+	Hello ${name}
 
 </body>
 </html>
