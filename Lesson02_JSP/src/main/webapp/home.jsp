@@ -9,6 +9,11 @@
 	<body>
 		<h1>Hello World!</h1>
 		
+		<!-- DECLARATION -->
+		<%!
+			int coef = 3;
+		%>
+		
 		<!--  SCRIPTLET -->
 		<%
 			out.println(5 + 7);
