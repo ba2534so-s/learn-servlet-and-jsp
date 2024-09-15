@@ -9,6 +9,7 @@
 <body bgcolor="grey">
 
 	Error
+		<%= exception %>
 
 </body>
 </html>
