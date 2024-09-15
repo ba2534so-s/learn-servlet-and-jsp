@@ -15,6 +15,7 @@
 	
 	<% 
 		String url = "jdbc:postgresql://localhost:5432/learn_jsp";
+		String username ="postgres";
 		Class.forName("org.postgresql.Driver");
 		Connection con = DriverManager.getConnection(url);
 	
