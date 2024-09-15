@@ -25,8 +25,13 @@
 		Statement st = con.createStatement();
 		
 		ResultSet rs = st.executeQuery(query);
+		rs.next();
 	
 	%>
+	
+	Student ID: <%= rs.getString(1) %> <br>
+	Name: <%= rs.getString(2) %><br>
+	Grade: <%= rs.getString(3) %> <br>
 
 </body>
 </html>
