@@ -12,6 +12,7 @@
 		out.println("Hello " + name);
 	
 	%> 
+	<br>
 	
 	Hello ${name}
 
