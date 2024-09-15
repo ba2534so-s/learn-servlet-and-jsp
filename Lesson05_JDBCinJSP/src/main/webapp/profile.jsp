@@ -12,6 +12,13 @@
 	101 <br>
 	Batman <br>
 	24 <br>
+	
+	<% 
+		String url = "jdbc:postgresql://localhost:5432/learn_jsp";
+		Class.forName("org.postgresql.Driver");
+		Connection con = DriverManager.getConnection(url);
+	
+	%>
 
 </body>
 </html>
