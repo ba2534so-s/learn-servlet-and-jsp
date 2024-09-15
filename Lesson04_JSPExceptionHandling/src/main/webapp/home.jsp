@@ -13,6 +13,7 @@
 		try {
 			int k = 9/0;			
 		} catch (Exception e) {
+			out.println("Error: " + e.getMessage());
 			
 		}
 	
