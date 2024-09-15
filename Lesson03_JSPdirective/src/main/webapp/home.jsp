@@ -13,5 +13,10 @@
 </head>
 <body>
 
+	<%
+		pageContext.setAttribute("name", "Batman");
+	
+	%>
+
 </body>
 </html>
