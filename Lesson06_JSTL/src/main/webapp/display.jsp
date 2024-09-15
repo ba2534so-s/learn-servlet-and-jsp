@@ -14,8 +14,11 @@
 	%> 
 	<br>
 	
+	
+	<!--  EXPRESSION LANGUAGAE -->
 	Hello ${name} <br>
 	
+	<!--  JSTL TAGS  -->
 	
 
 </body>
