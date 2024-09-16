@@ -18,9 +18,9 @@
 	
 	
 	<!--  EXPRESSION LANGUAGAE -->
-	Hello ${name} <br>
+	Hello ${student} <br>
 		<!--  JSTL TAGS  -->
-	<c:out value="Hello ${name}"></c:out>
+	<c:out value="Hello ${student}"></c:out>
 
 </body>
 </html>
