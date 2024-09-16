@@ -19,6 +19,11 @@
 		password="0"/>
 		
 	<sql:query var="rs" dataSource="${db}">SELECT * FROM Students</sql:query>
+	
+	<c:forEach items="${rs.rows}" var="row">
+		
+	
+	</c:forEach>
 
 </body>
 </html>
