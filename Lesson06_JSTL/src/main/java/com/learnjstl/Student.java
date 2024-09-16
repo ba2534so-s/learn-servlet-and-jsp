@@ -36,6 +36,9 @@ public class Student {
 		this.grade = grade;
 	}
 	
-	
+	@Override
+	public String toString() {
+		return this.getName();
+	}
 
 }
