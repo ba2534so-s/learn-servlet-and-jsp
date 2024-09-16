@@ -20,7 +20,7 @@
 	<!--  EXPRESSION LANGUAGAE -->
 	Hello ${student} <br>
 		<!--  JSTL TAGS  -->
-	<c:out value="Hello ${student}"></c:out>
+	<c:out value="Hello ${student.name}"></c:out>
 
 </body>
 </html>
