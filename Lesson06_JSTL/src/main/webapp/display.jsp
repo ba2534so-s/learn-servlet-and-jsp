@@ -26,7 +26,7 @@
 	<br><br>
 	
 	<c:forEach items="${students}" var="s">
-		${s} <br>
+		${s} has grade: ${s.grade} <br>
 	
 	</c:forEach>
 
