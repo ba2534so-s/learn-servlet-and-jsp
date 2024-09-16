@@ -24,7 +24,7 @@
 	</c:forEach>
 	
 	<c:if test="${fn:contains(str, 'World' }">
-		
+		<c:out value="Contains 'World'"></c:out>
 	</c:if>
 	
 </body>
