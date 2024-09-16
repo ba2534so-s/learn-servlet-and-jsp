@@ -16,7 +16,7 @@
 	
 	Length: ${fn:length(str)} <br><br>
 	
-	<c:forEach items="${fn:split(str, ' '}" var="s">
+	<c:forEach items="${fn:split(str, ' ')}" var="s">
 	
 		<c:out value="${s}"></c:out>
 	
