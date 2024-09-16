@@ -10,8 +10,8 @@
 </head>
 <body> 
 	<% 
-		String name = request.getAttribute("name").toString();
-		out.println("Hello " + name);
+		//String name = request.getAttribute("name").toString();
+		//out.println("Hello " + name);
 	
 	%> 
 	<br>
