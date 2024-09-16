@@ -12,5 +12,7 @@
 </head>
 <body>
 
+	<c:set var="str" value="Hello World"></c:set>
+
 </body>
 </html>
