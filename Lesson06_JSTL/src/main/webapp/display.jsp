@@ -18,9 +18,17 @@
 	
 	
 	<!--  EXPRESSION LANGUAGAE -->
-	Hello ${student} <br>
+	Hello ${students} <br>
 		<!--  JSTL TAGS  -->
-	<c:out value="Hello ${student.name}"></c:out>
+	<c:out value="Hello ${students}"></c:out>
+	
+	
+	<br><br>
+	
+	<c:forEach items="${students}" var="s">
+		${s} <br>
+	
+	</c:forEach>
 
 </body>
 </html>
