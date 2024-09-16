@@ -21,7 +21,7 @@
 	<sql:query var="rs" dataSource="${db}">SELECT * FROM Students</sql:query>
 	
 	<c:forEach items="${rs.rows}" var="row">
-		
+		<c:out value="${row.name}"></c:out> : <c:out value="${row.grade}"></c:out>
 	
 	</c:forEach>
 
