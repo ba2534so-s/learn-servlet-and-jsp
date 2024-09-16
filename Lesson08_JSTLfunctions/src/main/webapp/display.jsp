@@ -22,6 +22,10 @@
 	
 		<br>
 	</c:forEach>
-
+	
+	<c:if test="${fn:contains(str, 'World' }">
+		
+	</c:if>
+	
 </body>
 </html>
