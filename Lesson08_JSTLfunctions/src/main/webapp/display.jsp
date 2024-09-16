@@ -16,7 +16,7 @@
 	
 	Length: ${fn:length(str)} <br><br>
 	
-	
+	<c:forEach items="${fn:split(str, ' '}"></c:forEach>
 
 </body>
 </html>
