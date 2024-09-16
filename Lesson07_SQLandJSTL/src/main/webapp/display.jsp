@@ -11,7 +11,13 @@
 </head>
 <body>
 
-	<sql:
+	<sql:setDataSource var="db" 
+		driver="org.postgresql.Driver" 
+		url="jdbc:postgresql://localhost:5432/learn_jsp" 
+		user="postgres" 
+		password="0"/>
+		
+	<sql:query var="rs" dataSource="${db}">SELECT * FROM Students</sql:query>
 
 </body>
 </html>
