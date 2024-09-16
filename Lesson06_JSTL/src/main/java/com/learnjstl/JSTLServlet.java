@@ -15,9 +15,9 @@ public class JSTLServlet extends HttpServlet {
 	
 	protected void doGet(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
 		
-		String name = "Batman";
+		Student s = new Student(1, "Batman", "B");
 		
-		req.setAttribute("name", name);
+		req.setAttribute("student", s);
 		RequestDispatcher rd = req.getRequestDispatcher("display.jsp");
 		rd.forward(req, res);
 		
