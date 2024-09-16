@@ -23,8 +23,10 @@ public class JSTLServlet extends HttpServlet {
 												new Student(1, "Spiderman", "D")); 
 		
 		//Student s = new Student(1, "Batman", "B");
+		//req.setAttribute("student", s);
 		
-		req.setAttribute("student", s);
+		req.setAttribute("students", students);
+		
 		RequestDispatcher rd = req.getRequestDispatcher("display.jsp");
 		rd.forward(req, res);
 		
