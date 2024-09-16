@@ -14,7 +14,7 @@
 
 	<c:set var="str" value="Hello World"></c:set>
 	
-	Length: ${str}
+	Length: ${fn:length(str)}
 
 </body>
 </html>
