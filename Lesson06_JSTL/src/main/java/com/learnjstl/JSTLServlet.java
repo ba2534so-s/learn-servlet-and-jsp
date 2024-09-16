@@ -1,6 +1,8 @@
 package com.learnjstl;
 
 import java.io.IOException;
+import java.util.Arrays;
+import java.util.List;
 
 import jakarta.servlet.RequestDispatcher;
 import jakarta.servlet.ServletException;
@@ -15,7 +17,12 @@ public class JSTLServlet extends HttpServlet {
 	
 	protected void doGet(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
 		
-		Student s = new Student(1, "Batman", "B");
+		List<Student> students = Arrays.asList(
+												new Student(1, "Batman", "B"),
+												new Student(1, "Superman", "A"),
+												new Student(1, "Spiderman", "D")); 
+		
+		//Student s = new Student(1, "Batman", "B");
 		
 		req.setAttribute("student", s);
 		RequestDispatcher rd = req.getRequestDispatcher("display.jsp");
