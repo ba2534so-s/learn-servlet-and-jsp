@@ -15,6 +15,9 @@ public class MyServlet  extends HttpServlet {
 		
 		PrintWriter out = res.getWriter();
 		
+		
+		out.println("Welcome");
+		
 	}
 
 }
