@@ -6,6 +6,7 @@ import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
+import jakarta.servlet.http.HttpSession;
 
 @WebServlet("/login")
 public class LoginServlet extends HttpServlet {
@@ -17,8 +18,8 @@ public class LoginServlet extends HttpServlet {
 		
 		// Static username and password check just for practicing login.
 		if (username.equals("TestUser") && password.equals("testPass")) {
+			HttpSession session = req.getSession();
 			
-		
 			res.sendRedirect("welcome.jsp");
 		} else {
 			res.sendRedirect("login.jsp");
