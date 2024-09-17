@@ -8,6 +8,13 @@
 </head>
 <body>
 
+	<%
+		if(session.getAttribute("username") == null) {
+			
+		}
+	
+	%>
+
 	<h1>Welcome...</h1>
 
 </body>
