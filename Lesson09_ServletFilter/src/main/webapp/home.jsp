@@ -10,6 +10,9 @@
 
 	<form action="addStudent">
 	
+		<input type="text" name="name">
+		
+	
 	</form>
 
 </body>
