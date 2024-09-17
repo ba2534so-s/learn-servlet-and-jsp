@@ -19,7 +19,7 @@ public class MyServlet  extends HttpServlet {
 		String name = req.getParameter("name");
 		String grade = req.getParameter("grade");
 		
-		out.println("Welcome");
+		out.println("Welcome " + name);
 		
 	}
 
