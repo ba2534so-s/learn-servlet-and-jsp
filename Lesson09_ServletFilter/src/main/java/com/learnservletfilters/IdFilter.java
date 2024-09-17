@@ -11,6 +11,7 @@ import jakarta.servlet.http.HttpFilter;
 import jakarta.servlet.http.HttpServletRequest;
 
 import java.io.IOException;
+import java.io.PrintWriter;
 
 /**
  * Servlet Filter implementation class IdFilter
@@ -32,6 +33,7 @@ public class IdFilter extends HttpFilter implements Filter {
 		// TODO Auto-generated method stub
 		// place your code here
 		
+		PrintWriter out = response.getWriter();
 		HttpServletRequest req = (HttpServletRequest) request;
 		
 		int studentId = Integer.parseInt(req.getParameter("id"));
