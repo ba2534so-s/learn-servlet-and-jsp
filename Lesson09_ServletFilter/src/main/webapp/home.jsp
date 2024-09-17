@@ -9,13 +9,13 @@
 <body>
 
 	<form action="addStudent">
-		<label>Student ID: </label>
+		<label>Student ID:</label>
 		<input type="text" name="id"><br>
-		<label>Name: </label>
+		<label>Name:</label>
 		<input type="text" name="name"><br>
-		<label>Grade: </label>
+		<label>Grade:</label>
 		<input type="text" name="grade"><br>
-		<input type="submit"><br>
+		<input type="submit" value="Register"><br>
 	
 	</form>
 
