@@ -7,6 +7,13 @@
 <title>Videos</title>
 </head>
 <body>
+
+	<%
+		if (session.getAttribute("username") == null) {
+			
+		}
+	
+	%>
 	
 	<h1>Video 1</h1>
 	<h1>Video 2</h1>
