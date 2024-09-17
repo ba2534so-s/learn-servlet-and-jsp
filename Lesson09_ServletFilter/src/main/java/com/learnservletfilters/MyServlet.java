@@ -15,6 +15,7 @@ public class MyServlet  extends HttpServlet {
 		
 		PrintWriter out = res.getWriter();
 		
+		int studentId = Integer.parseInt(req.getParameter("id"));
 		
 		out.println("Welcome");
 		
