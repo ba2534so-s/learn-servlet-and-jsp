@@ -1,5 +1,6 @@
 package com.learnservletfilters;
 
+import java.io.IOException;
 import java.io.PrintWriter;
 
 import jakarta.servlet.annotation.WebServlet;
@@ -10,7 +11,7 @@ import jakarta.servlet.http.HttpServletResponse;
 @WebServlet("/addStudent")
 public class MyServlet  extends HttpServlet {
 	
-	protected void doGet(HttpServletRequest req, HttpServletResponse res) {
+	protected void doGet(HttpServletRequest req, HttpServletResponse res) throws IOException {
 		
 		PrintWriter out = res.getWriter();
 		
