@@ -14,7 +14,9 @@ public class LoginServlet extends HttpServlet {
 		String password = req.getParameter("password");
 		
 		// Static username and password check just for practicing login.
-		
+		if (username.equals("TestUser") && password.equals("testPass")) {
+			
+		}
 		
 	}
 	
