@@ -12,7 +12,7 @@
 	
 		<input type="text" name="name">
 		<input type="text" name="grade">
-		
+		<input type="submit">
 	
 	</form>
 
