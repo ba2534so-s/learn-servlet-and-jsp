@@ -10,9 +10,9 @@
 
 	<form action="addStudent">
 	
-		<input type="text" name="name">
-		<input type="text" name="grade">
-		<input type="submit">
+		<input type="text" name="name"><br>
+		<input type="text" name="grade"><br>
+		<input type="submit"><br>
 	
 	</form>
 
