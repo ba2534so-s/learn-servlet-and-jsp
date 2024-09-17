@@ -11,6 +11,7 @@
 	<form action="addStudent">
 		<label>Student ID: </label>
 		<input type="text" name="id"><br>
+		<label>Name: </label>
 		<input type="text" name="name"><br>
 		<input type="text" name="grade"><br>
 		<input type="submit"><br>
