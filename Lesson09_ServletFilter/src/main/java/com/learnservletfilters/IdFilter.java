@@ -36,6 +36,10 @@ public class IdFilter extends HttpFilter implements Filter {
 		
 		int studentId = Integer.parseInt(req.getParameter("id"));
 		
+		if (studentId < 1) {
+			
+		}
+		
 		System.out.println("In IdFilter");
 
 		// pass the request along the filter chain
