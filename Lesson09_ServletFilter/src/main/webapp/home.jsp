@@ -9,7 +9,7 @@
 <body>
 
 	<form action="addStudent">
-	
+		<label>Student ID: </label>
 		<input type="text" name="id"><br>
 		<input type="text" name="name"><br>
 		<input type="text" name="grade"><br>
