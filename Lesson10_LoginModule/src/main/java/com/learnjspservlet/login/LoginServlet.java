@@ -1,5 +1,7 @@
 package com.learnjspservlet.login;
 
+import java.io.IOException;
+
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
@@ -8,7 +10,7 @@ import jakarta.servlet.http.HttpServletResponse;
 @WebServlet("/login")
 public class LoginServlet extends HttpServlet {
 	
-	protected void doGet(HttpServletRequest req, HttpServletResponse res) {
+	protected void doGet(HttpServletRequest req, HttpServletResponse res) throws IOException {
 		
 		String username = req.getParameter("username");
 		String password = req.getParameter("password");
