@@ -16,6 +16,8 @@ public class LoginServlet extends HttpServlet {
 		// Static username and password check just for practicing login.
 		if (username.equals("TestUser") && password.equals("testPass")) {
 			
+			
+			res.sendRedirect("welcome.jsp");
 		}
 		
 	}
