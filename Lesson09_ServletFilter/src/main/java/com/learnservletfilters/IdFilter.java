@@ -42,7 +42,7 @@ public class IdFilter extends HttpFilter implements Filter {
 			// pass the request along the filter chain
 			chain.doFilter(request, response);			
 		} else {
-			System.out.println("Invalid ID");
+			out.println("Invalid ID");
 		}
 		
 
