@@ -8,5 +8,9 @@
 </head>
 <body>
 
+	<form action="addStudent">
+	
+	</form>
+
 </body>
 </html>
