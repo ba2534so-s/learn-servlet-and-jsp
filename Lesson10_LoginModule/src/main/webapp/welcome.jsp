@@ -15,7 +15,7 @@
 	
 	%>
 
-	<h1>Welcome ${username}</h1><br><br>
+	<h1>Welcome ${username}</h1><br>
 	
 	<a href="videos.jsp">Videos</a>
 
