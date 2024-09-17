@@ -9,7 +9,7 @@
 <body>
 	
 	<form action="login">
-	
+		Enter Username: <input type="text" name="username"><br>
 	</form>
 
 </body>
