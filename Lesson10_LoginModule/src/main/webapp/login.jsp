@@ -7,6 +7,10 @@
 <title>Login</title>
 </head>
 <body>
+	
+	<form action="login">
+	
+	</form>
 
 </body>
 </html>
