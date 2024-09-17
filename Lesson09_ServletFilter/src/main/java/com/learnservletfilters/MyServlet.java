@@ -1,5 +1,7 @@
 package com.learnservletfilters;
 
+import java.io.PrintWriter;
+
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
@@ -9,6 +11,8 @@ import jakarta.servlet.http.HttpServletResponse;
 public class MyServlet  extends HttpServlet {
 	
 	protected void doGet(HttpServletRequest req, HttpServletResponse res) {
+		
+		PrintWriter out = res.getWriter();
 		
 	}
 
