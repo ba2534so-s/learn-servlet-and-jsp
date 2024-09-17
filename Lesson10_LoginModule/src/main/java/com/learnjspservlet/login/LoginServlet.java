@@ -11,6 +11,7 @@ public class LoginServlet extends HttpServlet {
 	protected void doGet(HttpServletRequest req, HttpServletResponse res) {
 		
 		String username = req.getParameter("username");
+		String password = req.getParameter("password");
 		
 	}
 	
