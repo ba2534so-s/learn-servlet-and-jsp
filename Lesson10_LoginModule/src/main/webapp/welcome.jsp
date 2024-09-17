@@ -20,7 +20,7 @@
 	<a href="videos.jsp">Videos</a><br>
 	
 	<form action="logout">
-	
+		<input type="submit" value="Logout">
 	</form>
 	
 
