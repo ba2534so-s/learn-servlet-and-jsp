@@ -17,6 +17,7 @@ public class MyServlet  extends HttpServlet {
 		
 		int studentId = Integer.parseInt(req.getParameter("id"));
 		String name = req.getParameter("name");
+		String grade = req.getParameter("grade");
 		
 		out.println("Welcome");
 		
