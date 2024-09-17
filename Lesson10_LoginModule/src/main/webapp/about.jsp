@@ -8,7 +8,9 @@
 </head>
 <body>
 
-	
+	This is Login Module
+	A website for learning about login and logout functionality
+	Using JSP and Servlet
 
 </body>
 </html>
