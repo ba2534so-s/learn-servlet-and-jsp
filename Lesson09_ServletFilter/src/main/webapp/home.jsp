@@ -11,6 +11,7 @@
 	<form action="addStudent">
 	
 		<input type="text" name="name">
+		<input type="text" name="grade">
 		
 	
 	</form>
