@@ -20,6 +20,7 @@ public class LoginDAO  {
 			Connection con = DriverManager.getConnection(url, dbUser, dbPass);
 			PreparedStatement st = con.prepareStatement(loginQuery);
 			st.setString(1, username);
+			st.setString(2, password);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
