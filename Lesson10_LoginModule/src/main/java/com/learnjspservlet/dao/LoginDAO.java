@@ -2,6 +2,7 @@ package com.learnjspservlet.dao;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
+import java.sql.PreparedStatement;
 
 public class LoginDAO  {
 	
@@ -17,6 +18,8 @@ public class LoginDAO  {
 		try {
 			Class.forName("org.postgresql.Driver");
 			Connection con = DriverManager.getConnection(url, dbUser, dbPass);
+			PreparedStatement st = con.prepareStatement(loginQuery);
+			
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
