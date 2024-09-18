@@ -11,7 +11,7 @@ import jakarta.servlet.http.HttpSession;
 @WebServlet("/login")
 public class LoginServlet extends HttpServlet {
 	
-	protected void doGet(HttpServletRequest req, HttpServletResponse res) throws IOException {
+	protected void doPost(HttpServletRequest req, HttpServletResponse res) throws IOException {
 		
 		String username = req.getParameter("username");
 		String password = req.getParameter("password");
