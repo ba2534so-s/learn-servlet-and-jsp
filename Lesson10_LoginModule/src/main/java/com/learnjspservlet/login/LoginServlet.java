@@ -20,7 +20,7 @@ public class LoginServlet extends HttpServlet {
 		LoginDAO dao = new LoginDAO();
 		
 		// Static username and password check just for practicing login.
-		if (username.equals("TestUser") && password.equals("testPass")) {
+		if (dao.checkUser(username, password)) {
 			HttpSession session = req.getSession();
 			session.setAttribute("username", username);
 			
