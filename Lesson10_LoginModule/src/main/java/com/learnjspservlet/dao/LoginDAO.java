@@ -7,7 +7,7 @@ import java.sql.ResultSet;
 
 public class LoginDAO  {
 	
-	String url = "jdbc:postgrsql://localhost:5432/learn_jsp";
+	String url = "jdbc:postgresql://localhost:5432/learn_jsp";
 	String dbUser = "postgres";
 	String dbPass = "0";
 	
