@@ -11,7 +11,7 @@ public class LogoutServlet extends HttpServlet {
 	
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) {
 		HttpSession session = request.getSession();
-
+		session.removeAttribute("username");
 	}
 
 }
