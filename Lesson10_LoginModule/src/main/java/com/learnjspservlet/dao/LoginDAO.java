@@ -19,7 +19,7 @@ public class LoginDAO  {
 			Class.forName("org.postgresql.Driver");
 			Connection con = DriverManager.getConnection(url, dbUser, dbPass);
 			PreparedStatement st = con.prepareStatement(loginQuery);
-			
+			st.setString(1, username);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
