@@ -3,6 +3,7 @@ package com.learnjspservlet.dao;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 
 public class LoginDAO  {
 	
@@ -21,6 +22,8 @@ public class LoginDAO  {
 			PreparedStatement st = con.prepareStatement(loginQuery);
 			st.setString(1, username);
 			st.setString(2, password);
+			ResultSet rs = st.executeQuery();
+			
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
