@@ -2,6 +2,8 @@ package com.learnjspservlet.login;
 
 import java.io.IOException;
 
+import com.learnjspservlet.dao.LoginDAO;
+
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
@@ -15,6 +17,7 @@ public class LoginServlet extends HttpServlet {
 		
 		String username = req.getParameter("username");
 		String password = req.getParameter("password");
+		LoginDAO dao = new LoginDAO();
 		
 		// Static username and password check just for practicing login.
 		if (username.equals("TestUser") && password.equals("testPass")) {
