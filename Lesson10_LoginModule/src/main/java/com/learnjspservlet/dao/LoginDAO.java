@@ -9,6 +9,11 @@ public class LoginDAO  {
 	
 	public boolean checkUser(String username, String password) {
 		
+		try {
+			Class.forName("org.postgresql.Driver");
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
 		
 		
 		
