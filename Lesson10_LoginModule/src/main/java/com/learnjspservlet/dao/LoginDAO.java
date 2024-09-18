@@ -24,6 +24,10 @@ public class LoginDAO  {
 			st.setString(2, password);
 			ResultSet rs = st.executeQuery();
 			
+			if (rs.next()) {
+				
+			}
+			
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
