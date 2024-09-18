@@ -6,6 +6,8 @@ public class LoginDAO  {
 	String db_user = "postgres";
 	String db_pass = "0";
 	
+	String login_query = "SELECT * FROM users WHERE username = ? AND password = ?";
+	
 	
 	public boolean checkUser(String username, String password) {
 		
